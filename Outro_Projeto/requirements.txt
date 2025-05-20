@@ -1,0 +1,7 @@
+# requirements.txt para o projeto Outro_Projeto
+flwr
+numpy
+pandas
+tensorflow
+scikit-learn
+# Adicione outras dependências conforme necessário
