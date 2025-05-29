@@ -6,14 +6,14 @@
 Este projeto implementa um pipeline FL para detectar anomalias em séries temporais pluviométricas.
 
 Estrutura:
-- data/: datasets (ex: Dataset_Anomalia.csv)
+- data/: datasets  (Dataset_Anomalia.csv)
 - models/: modelos treinados pós-treinamento federado
 - scripts/: scripts de servidor, cliente e utilitários
 - requirements.txt: dependências Python
 - README.md: documentação deste projeto
 
 Deploy em TVBOXs:
-1. Copie toda a pasta `Anomalia_Template/` para cada TVBOX.
+1. Copie toda a pasta `Anomalia_TVBOX/` para cada TVBOX.
 2. Em uma TVBOX (servidor):
    - Instale dependências: `pip install -r requirements.txt`
    - Rode o servidor FL: `python scripts/run_fl_server.py`

@@ -1,7 +1,7 @@
 import argparse
 import logging
 import flwr as fl
-from .utils import prepare_client_data, create_model, FLClient, WINDOW_SIZE, EPOCHS, BATCH_SIZE
+from utils import prepare_client_data, create_model, FLClient, WINDOW_SIZE, EPOCHS, BATCH_SIZE
 
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")

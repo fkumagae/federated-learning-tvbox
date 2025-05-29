@@ -4,15 +4,3 @@ tensorflow
 pandas
 scikit-learn
 numpy
-
-venv/
-.venv/
-Anomalia_TVBOX/venv/
-Anomalia_Pluviometrica/venv/
-Outro_Projeto/venv/
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-*.h5
-*.keras
