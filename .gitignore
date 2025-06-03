@@ -1,4 +1,5 @@
 # .gitignore para projetos Python e Federated Learning
+fl_venv/
 venv/
 .venv/
 Anomalia_TVBOX/venv/
